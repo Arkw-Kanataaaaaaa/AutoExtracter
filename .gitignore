@@ -1,0 +1,43 @@
+# ビルド生成物とIDEの個人設定
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# インストーラー関連はローカルで保持し、配布物はGitHub Releasesへ置く
+/Setup/
+/AutoExtracter.Installer.sln
+/Properties/PublishProfiles/MsiWinX64.pubxml
+/doc/Installer.md
+*.msi
+*.msm
+*.msp
+*.exe
+*.dll
+*.pdb
+*.zip
+*.7z
+*.rar
+
+# 実行時データと個人設定
+/Data/
+/Icons/
+/InstallerLogs/
+appsettings.local*.json
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+Thumbs.db
+Desktop.ini
+.DS_Store

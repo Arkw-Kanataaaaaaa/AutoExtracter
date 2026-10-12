@@ -1,0 +1,28 @@
+name: 不具合報告
+description: AutoExtracterの不具合を報告する
+body:
+  - type: input
+    id: version
+    attributes:
+      label: アプリのバージョン
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windowsのバージョン
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順と発生した問題
+      description: 期待した結果、実際の結果、発生日時を記載する
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 関連するログ
+      description: 個人情報やフォルダ名を伏せ、パスワードを含めない
+      render: text

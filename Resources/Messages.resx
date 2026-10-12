@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data name="I001" xml:space="preserve">
+    <value>監視開始: {0}</value>
+  </data>
+  <data name="I002" xml:space="preserve">
+    <value>監視終了</value>
+  </data>
+  <data name="I003" xml:space="preserve">
+    <value>受け入れ: {0} / 順序: {1}</value>
+  </data>
+  <data name="I004" xml:space="preserve">
+    <value>解凍開始: {0}</value>
+  </data>
+  <data name="I005" xml:space="preserve">
+    <value>解凍完了: {0} → {1}</value>
+  </data>
+  <data name="W001" xml:space="preserve">
+    <value>パスワードが必要なため退避しました: {0} → {1}</value>
+  </data>
+  <data name="E001" xml:space="preserve">
+    <value>起動または実行に失敗しました</value>
+  </data>
+  <data name="E002" xml:space="preserve">
+    <value>監視スキャン失敗</value>
+  </data>
+  <data name="E003" xml:space="preserve">
+    <value>受け入れ失敗: {0}</value>
+  </data>
+  <data name="E004" xml:space="preserve">
+    <value>処理失敗。一時フォルダのデータを保持して再試行します</value>
+  </data>
+  <data name="E005" xml:space="preserve">
+    <value>解凍失敗: {0} → {1}</value>
+  </data>
+  <data name="E006" xml:space="preserve">
+    <value>ログ書き込み失敗: {0}</value>
+  </data>
+  <data name="E101" xml:space="preserve">
+    <value>フォルダをすべて指定してください。</value>
+  </data>
+  <data name="E102" xml:space="preserve">
+    <value>各フォルダは別々に指定し、親子関係にしないでください。</value>
+  </data>
+  <data name="E103" xml:space="preserve">
+    <value>待機時間と解凍上限は正の値にしてください。</value>
+  </data>
+  <data name="E104" xml:space="preserve">
+    <value>使い方: AutoExtracter.exe [appsettings.json のパス]</value>
+  </data>
+  <data name="E105" xml:space="preserve">
+    <value>設定が空です。</value>
+  </data>
+  <data name="E106" xml:space="preserve">
+    <value>分割アーカイブには対応していません。</value>
+  </data>
+  <data name="E107" xml:space="preserve">
+    <value>エントリ数の上限を超えました。</value>
+  </data>
+  <data name="E108" xml:space="preserve">
+    <value>リンクを含むアーカイブには対応していません。</value>
+  </data>
+  <data name="E109" xml:space="preserve">
+    <value>ファイル名が空です。</value>
+  </data>
+  <data name="E110" xml:space="preserve">
+    <value>絶対パスを含むアーカイブです。</value>
+  </data>
+  <data name="E111" xml:space="preserve">
+    <value>解凍先の外を指すパスです。</value>
+  </data>
+  <data name="E112" xml:space="preserve">
+    <value>解凍サイズの上限を超えました。</value>
+  </data>
+  <data name="E113" xml:space="preserve">
+    <value>パスワードが必要です。</value>
+  </data>
+  <data name="E114" xml:space="preserve">
+    <value>ジョブのファイル名が不正です。</value>
+  </data>
+  <data name="E202" xml:space="preserve">
+    <value>配布用アプリのビルドに失敗しました。</value>
+  </data>
+  <data name="I301" xml:space="preserve">
+    <value>待機中</value>
+  </data>
+  <data name="I302" xml:space="preserve">
+    <value>解凍中</value>
+  </data>
+  <data name="I303" xml:space="preserve">
+    <value>完了フォルダに移動中</value>
+  </data>
+  <data name="I304" xml:space="preserve">
+    <value>エラー発生・再試行待ち</value>
+  </data>
+  <data name="I305" xml:space="preserve">
+    <value>終了処理中</value>
+  </data>
+  <data name="I307" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="I310" xml:space="preserve">
+    <value>AutoExtracter 解凍状況</value>
+  </data>
+  <data name="I311" xml:space="preserve">
+    <value>計算中／不明</value>
+  </data>
+  <data name="I313" xml:space="preserve">
+    <value>{0}：{1}</value>
+  </data>
+  <data name="I322" xml:space="preserve">
+    <value>圧縮ファイルの追加を待機中</value>
+  </data>
+  <data name="E115" xml:space="preserve">
+    <value>ファイルまたはフォルダを開けません: {0}
+{1}</value>
+  </data>
+  <data name="E116">
+    <value>GIFは10 MiB以下、縦横2048ピクセル以下、256フレーム以下で指定してください</value>
+  </data>
+  <data name="I326">
+    <value>待機中{0}</value>
+  </data>
+  <data name="W003">
+    <value>待機用GIFを読み込めないため同梱画像を使用する: {0}</value>
+  </data>
+  <data name="I328">
+    <value>圧縮 {0}
+{1} / {2}</value>
+  </data>
+  <data name="W004">
+    <value>解凍中GIFを読み込めないため同梱画像を使用する: {0}</value>
+  </data>
+  <data name="I330">
+    <value>監視中：{0}</value>
+  </data>
+  <data name="I334">
+    <value>設定</value>
+  </data>
+  <data name="I336">
+    <value>参照</value>
+  </data>
+  <data name="I342">
+    <value>本日のログファイルはまだありません</value>
+  </data>
+  <data name="I343">
+    <value>本日分のログファイルを開く</value>
+  </data>
+  <data name="E117">
+    <value>対象拡張子はZIP・7z・RARから一つ以上選択してください</value>
+  </data>
+  <data name="E118">
+    <value>設定を保存できません: {0}</value>
+  </data>
+  <data name="I344">
+    <value>テーマカラー</value>
+  </data>
+  <data name="I345">
+    <value>ライト</value>
+  </data>
+  <data name="I346">
+    <value>ダーク</value>
+  </data>
+  <data name="I347">
+    <value>システム</value>
+  </data>
+  <data name="E119">
+    <value>外観はLight、Dark、Systemから選択してください</value>
+  </data>
+  <data name="I348">
+    <value>問題のあるファイル（{0}件）</value>
+  </data>
+  <data name="I352">
+    <value>×</value>
+  </data>
+  <data name="W005">
+    <value>退避フォルダの件数を確認できないため前回値を保持する: {0}</value>
+  </data>
+  <data name="I353">
+    <value>処理設定</value>
+  </data>
+  <data name="I355">
+    <value>その他</value>
+  </data>
+  <data name="I356">
+    <value>監視対象フォルダ</value>
+  </data>
+  <data name="I357">
+    <value>完了フォルダ</value>
+  </data>
+  <data name="I358">
+    <value>対象拡張子</value>
+  </data>
+  <data name="I359">
+    <value>上限容量（GB）</value>
+  </data>
+  <data name="I366">
+    <value>適用</value>
+  </data>
+  <data name="I371">
+    <value>設定を閉じる</value>
+  </data>
+  <data name="I372">
+    <value>処理設定を保存したためアプリを再起動する</value>
+  </data>
+  <data name="I373">
+    <value>GIF画像|*.gif</value>
+  </data>
+  <data name="I376" xml:space="preserve">
+    <value>▶ {0}</value>
+  </data>
+  <data name="I377" xml:space="preserve">
+    <value>　 {0}</value>
+  </data>
+  <data name="I378">
+    <value>外観設定</value>
+  </data>
+  <data name="I381">
+    <value>アイコン設定</value>
+  </data>
+  <data name="I382">
+    <value>待機中アイコン</value>
+  </data>
+  <data name="I383">
+    <value>処理中アイコン</value>
+  </data>
+  <data name="I384">
+    <value>初期設定</value>
+  </data>
+  <data name="I385">
+    <value>パスワード入力対話モード</value>
+  </data>
+  <data name="I386">
+    <value>パスワード入力待ち</value>
+  </data>
+  <data name="I387">
+    <value>パスワードを入力してください: {0}</value>
+  </data>
+  <data name="I390">
+    <value>対話アイコン</value>
+  </data>
+  <data name="I391">
+    <value>パスワード</value>
+  </data>
+  <data name="I392">
+    <value>解凍</value>
+  </data>
+  <data name="I393">
+    <value>退避</value>
+  </data>
+  <data name="W006">
+    <value>画面なし実行ではパスワード入力を待たず退避する</value>
+  </data>
+  <data name="W007">
+    <value>パスワードを確認して再入力してください: {0}</value>
+  </data>
+  <data name="W008">
+    <value>対話GIFを読み込めないため同梱画像を使用する: {0}</value>
+  </data>
+  <data name="W009">
+    <value>AutoExtracterはすでに起動しています</value>
+  </data>
+  <data name="I394"><value>アニメーション</value></data>
+  <data name="E120">
+    <value>圧縮ファイルの容量が上限を超えている</value>
+  </data>
+  <data name="I395">
+    <value>デスクトップにショートカットを作成</value>
+  </data>
+  <data name="I396">
+    <value>スタートアップ</value>
+  </data>
+  <data name="I397">
+    <value>インストールされているフォルダを開く</value>
+  </data>
+  <data name="I398">
+    <value>デスクトップにショートカットを作成しました。</value>
+  </data>
+  <data name="I399">
+    <value>スタートアップ設定を変更した</value>
+  </data>
+  <data name="E121">
+    <value>ショートカットの設定に失敗した: {0}</value>
+  </data>
+  <data name="I400">
+    <value>OK</value>
+  </data>
+  <data name="I401">
+    <value>No</value>
+  </data>
+  <data name="I402">
+    <value>処理設定の変更適用にはアプリを再起動する必要があります。
+アプリを再起動しますか？</value>
+  </data>
+  <data name="I403">
+    <value>今後はこのメッセージを表示しない</value>
+  </data>
+  <data name="I404"><value>圧縮ファイルの保持</value></data>
+  <data name="I405"><value>圧縮ファイル退避フォルダ</value></data>
+  <data name="I204"><value>Visual Studio用のセットアッププロジェクトとインストールファイルを準備した</value></data>
+  <data name="I205"><value>MSIを作成した: {0}</value></data>
+  <data name="E214"><value>MSIのビルドに失敗した。ログを確認する: {0}</value></data>
+  <data name="E215" xml:space="preserve">
+    <value>インストーラーの収録ファイルが未作成のためPrepare-InstallerPayload.ps1を先に実行する</value>
+  </data>
+  <data name="I006" xml:space="preserve">
+    <value>パスワードが必要なため後回しにする: {0}</value>
+  </data>
+  <data name="I500" xml:space="preserve">
+    <value>AutoExtracter Ver{0} セットアップ</value>
+  </data>
+  <data name="I501" xml:space="preserve">
+    <value>AutoExtracterを見つけていただき、ありがとうございます。</value>
+  </data>
+  <data name="I502" xml:space="preserve">
+    <value>AutoExtracter</value>
+  </data>
+  <data name="I503" xml:space="preserve">
+    <value>指定したフォルダの圧縮ファイルを見つけて、自動で順番に解凍するアプリです。</value>
+  </data>
+  <data name="I504" xml:space="preserve">
+    <value>これから、ライセンスとインストール先、監視フォルダなどを確認します。
+「次へ」を押してセットアップを始めてください。</value>
+  </data>
+  <data name="I507" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="I508" xml:space="preserve">
+    <value>次へ</value>
+  </data>
+  <data name="I509" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="I510" xml:space="preserve">
+    <value>ライセンスの確認</value>
+  </data>
+  <data name="I511" xml:space="preserve">
+    <value>本文を最後まで確認し、「内容を確認しました」にチェックを入れてください。</value>
+  </data>
+  <data name="I512" xml:space="preserve">
+    <value>ライセンスの内容を確認しました</value>
+  </data>
+  <data name="I516" xml:space="preserve">
+    <value>インストール先の確認</value>
+  </data>
+  <data name="I517" xml:space="preserve">
+    <value>アプリをインストールするフォルダを確認してください。必要に応じて変更できます。</value>
+  </data>
+  <data name="I518" xml:space="preserve">
+    <value>インストール先フォルダ</value>
+  </data>
+  <data name="I519" xml:space="preserve">
+    <value>フォルダと起動の設定</value>
+  </data>
+  <data name="I520" xml:space="preserve">
+    <value>監視対象フォルダ</value>
+  </data>
+  <data name="I521" xml:space="preserve">
+    <value>完了フォルダ</value>
+  </data>
+  <data name="I522" xml:space="preserve">
+    <value>フォルダが空欄の場合は、ドキュメント内のAutoExtracter\IncomingとAutoExtracter\Completedを使用します。</value>
+  </data>
+  <data name="I523" xml:space="preserve">
+    <value>デスクトップにショートカットを作成する</value>
+  </data>
+  <data name="I524" xml:space="preserve">
+    <value>スタートアップに登録する</value>
+  </data>
+  <data name="I525" xml:space="preserve">
+    <value>選択内容の確認</value>
+  </data>
+  <data name="I526" xml:space="preserve">
+    <value>アプリ：AutoExtracter
+ライセンス：確認済み
+
+インストール先：
+{0}
+
+監視対象フォルダ：
+{1}
+
+完了フォルダ：
+{2}
+
+デスクトップのショートカット：{3}
+スタートアップ：{4}</value>
+  </data>
+  <data name="I527" xml:space="preserve">
+    <value>インストール</value>
+  </data>
+  <data name="I528" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="I529" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="I530" xml:space="preserve">
+    <value>アプリをインストールしています。しばらくお待ちください。</value>
+  </data>
+  <data name="I531" xml:space="preserve">
+    <value>フォルダ設定とショートカットを適用しています。</value>
+  </data>
+  <data name="I532" xml:space="preserve">
+    <value>この内容でインストールしますか？「インストール」を押すと開始します。</value>
+  </data>
+  <data name="I533" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="I534" xml:space="preserve">
+    <value>インストール中</value>
+  </data>
+  <data name="I535" xml:space="preserve">
+    <value>インストール完了</value>
+  </data>
+  <data name="I536" xml:space="preserve">
+    <value>インストールが完了しました。
+インストーラーを終了しますか？</value>
+  </data>
+  <data name="I537" xml:space="preserve">
+    <value>AutoExtracterを起動する</value>
+  </data>
+  <data name="I538" xml:space="preserve">
+    <value>インストールを完了するために、Windowsの再起動が必要です。</value>
+  </data>
+  <data name="E501" xml:space="preserve">
+    <value>ライセンスの内容を確認してください。</value>
+  </data>
+  <data name="E502" xml:space="preserve">
+    <value>インストール先のフォルダを絶対パスで指定してください。</value>
+  </data>
+  <data name="E503" xml:space="preserve">
+    <value>インストーラーに必要なMSIを読み込めません。</value>
+  </data>
+  <data name="E504" xml:space="preserve">
+    <value>インストールを完了できませんでした。
+終了コード：{0}
+ログ：{1}</value>
+  </data>
+  <data name="E505" xml:space="preserve">
+    <value>アプリのインストールは完了しましたが、設定またはショートカットの適用に失敗しました。
+{0}</value>
+  </data>
+  <data name="E506" xml:space="preserve">
+    <value>AutoExtracterを起動できませんでした。
+{0}</value>
+  </data>
+  <data name="E507" xml:space="preserve">
+    <value>監視対象フォルダと完了フォルダは、絶対パスで指定してください。</value>
+  </data>
+</root>
