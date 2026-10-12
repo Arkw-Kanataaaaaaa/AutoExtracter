@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="Resources/Images/AppIcon.png" width="128" height="128" alt="AutoExtracter" />
+</p>
+<h1 align="center">AutoExtracter</h1>
+
+[English](doc/README.en.md)
+
 ## 概要
 
 AutoExtracterは、指定したフォルダを監視し、フォルダ内に配置された圧縮ファイルを自動解凍するWindows用の監視アプリです。
@@ -17,16 +24,17 @@ ZIP・7z・RARに対応し、一件ずつ解凍します。
 初期インストール先は `%LOCALAPPDATA%\AutoExtracter`です。
 監視フォルダと完了フォルダを空欄にした場合は、ドキュメント内の `AutoExtracter\Incoming` と `AutoExtracter\Completed` を使用します。
 
+インストール版の初期設定では、ユーザーのドキュメントフォルダ内に `AutoExtracter` フォルダを作成します。一時作業用の `Temporary`、ログ用の `Logs`、エラー退避用の `Errors`、パスワード退避用の `PasswordRequired` などを、その配下に作成して使用します。
+
 アンインストールはWindowsの「インストールされているアプリ」、またはインストールフォルダ内の `Uninstall.exe` から行います。
-スタートアップを利用している場合は削除前にOFFへ変更します。
-ユーザー設定・保存済みアイコン・解凍データはアンインストール後も保持します。
+アンインストール前に、実行中のAutoExtracterを終了してください。
+アンインストール画面では、設定・ログ・ドキュメント内のAutoExtracterフォルダを削除するか選択できます。削除する設定は初期状態でONになっています。指定した別の完了フォルダなどは削除しません。
 
 ## 必要要件
 
 - Windowsの64ビット環境が必要です。
-- アンインストーラーの実行には.NET Framework 4.8が必要です。
 
-配布版には.NET 8ランタイムを同梱しているため、.NET 8の別途インストールは不要です。
+アプリとアンインストーラーには.NET 8ランタイムを同梱しているため、.NETの別途インストールは不要です。
 
 ソースからビルドする場合はWindowsと.NET 8 SDKを使用し、リポジトリのルートで次を実行します。
 

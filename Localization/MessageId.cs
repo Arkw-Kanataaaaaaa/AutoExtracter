@@ -113,10 +113,6 @@ internal enum MessageId
     /// ジョブのファイル名が不正であることを示す
     /// </summary>
     E114,
-    /// <summary>
-    /// 配布用アプリのビルド失敗を通知する
-    /// </summary>
-    E202,
 
     /// <summary>
     /// 待機中
@@ -410,224 +406,53 @@ internal enum MessageId
     /// 圧縮ファイルの退避先
     /// </summary>
     I405,
-    /// <summary>
-    /// Visual Studio用のインストールファイル準備完了
-    /// </summary>
-    I204,
-    /// <summary>
-    /// MSIの作成完了
-    /// </summary>
-    I205,
-    /// <summary>
-    /// MSIのビルド失敗
-    /// </summary>
-    E214,
-    /// <summary>
-    /// インストーラーの収録ファイルが未作成
-    /// </summary>
-    E215,
-    /// <summary>
-    /// セットアップ用メッセージ I500
-    /// </summary>
-    I500,
 
-    /// <summary>
-    /// セットアップ用メッセージ I501
-    /// </summary>
-    I501,
 
-    /// <summary>
-    /// セットアップ用メッセージ I502
-    /// </summary>
-    I502,
 
-    /// <summary>
-    /// セットアップ用メッセージ I503
-    /// </summary>
-    I503,
 
-    /// <summary>
-    /// セットアップ用メッセージ I504
-    /// </summary>
-    I504,
 
-    /// <summary>
-    /// セットアップ用メッセージ I507
-    /// </summary>
-    I507,
 
-    /// <summary>
-    /// セットアップ用メッセージ I508
-    /// </summary>
-    I508,
 
-    /// <summary>
-    /// セットアップ用メッセージ I509
-    /// </summary>
-    I509,
 
-    /// <summary>
-    /// セットアップ用メッセージ I510
-    /// </summary>
-    I510,
 
-    /// <summary>
-    /// セットアップ用メッセージ I511
-    /// </summary>
-    I511,
 
-    /// <summary>
-    /// セットアップ用メッセージ I512
-    /// </summary>
-    I512,
 
-    /// <summary>
-    /// セットアップ用メッセージ I516
-    /// </summary>
-    I516,
 
-    /// <summary>
-    /// セットアップ用メッセージ I517
-    /// </summary>
-    I517,
 
-    /// <summary>
-    /// セットアップ用メッセージ I518
-    /// </summary>
-    I518,
 
-    /// <summary>
-    /// セットアップ用メッセージ I519
-    /// </summary>
-    I519,
 
-    /// <summary>
-    /// セットアップ用メッセージ I520
-    /// </summary>
-    I520,
 
-    /// <summary>
-    /// セットアップ用メッセージ I521
-    /// </summary>
-    I521,
 
-    /// <summary>
-    /// セットアップ用メッセージ I522
-    /// </summary>
-    I522,
 
-    /// <summary>
-    /// セットアップ用メッセージ I523
-    /// </summary>
-    I523,
 
-    /// <summary>
-    /// セットアップ用メッセージ I524
-    /// </summary>
-    I524,
 
-    /// <summary>
-    /// セットアップ用メッセージ I525
-    /// </summary>
-    I525,
 
-    /// <summary>
-    /// セットアップ用メッセージ I526
-    /// </summary>
-    I526,
 
-    /// <summary>
-    /// セットアップ用メッセージ I527
-    /// </summary>
-    I527,
 
-    /// <summary>
-    /// セットアップ用メッセージ I528
-    /// </summary>
-    I528,
 
-    /// <summary>
-    /// セットアップ用メッセージ I529
-    /// </summary>
-    I529,
 
-    /// <summary>
-    /// セットアップ用メッセージ I530
-    /// </summary>
-    I530,
 
-    /// <summary>
-    /// セットアップ用メッセージ I531
-    /// </summary>
-    I531,
 
-    /// <summary>
-    /// セットアップ用メッセージ I532
-    /// </summary>
-    I532,
 
-    /// <summary>
-    /// セットアップ用メッセージ I533
-    /// </summary>
-    I533,
 
-    /// <summary>
-    /// セットアップ用メッセージ I534
-    /// </summary>
-    I534,
 
-    /// <summary>
-    /// セットアップ用メッセージ I535
-    /// </summary>
-    I535,
 
-    /// <summary>
-    /// セットアップ用メッセージ I536
-    /// </summary>
-    I536,
 
-    /// <summary>
-    /// セットアップ用メッセージ I537
-    /// </summary>
-    I537,
 
-    /// <summary>
-    /// セットアップ用メッセージ I538
-    /// </summary>
-    I538,
 
-    /// <summary>
-    /// セットアップ用メッセージ E501
-    /// </summary>
-    E501,
 
-    /// <summary>
-    /// セットアップ用メッセージ E502
-    /// </summary>
-    E502,
 
-    /// <summary>
-    /// セットアップ用メッセージ E503
-    /// </summary>
-    E503,
 
-    /// <summary>
-    /// セットアップ用メッセージ E504
-    /// </summary>
-    E504,
 
-    /// <summary>
-    /// セットアップ用メッセージ E505
-    /// </summary>
-    E505,
 
-    /// <summary>
-    /// セットアップ用メッセージ E506
-    /// </summary>
-    E506,
 
-    /// <summary>
-    /// セットアップ用メッセージ E507
-    /// </summary>
-    E507,
+
+
+
+
+
+
+
+
+
 }
