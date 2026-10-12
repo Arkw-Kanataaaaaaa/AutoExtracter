@@ -8,7 +8,7 @@ ZIP・7z・RARに対応し、一件ずつ解凍します。
 
 ## インストール方法
 
-1. このリポジトリのReleasesから `AutoExtracter-Setup-x64.exe` をダウンロードして実行します。
+1. [GitHub Releases](https://github.com/Arkw-Kanataaaaaaa/AutoExtracter/releases)から `AutoExtracter-Setup-x64.exe` をダウンロードして実行します。
 2. ライセンスを確認し、インストール先を選択します。
 3. 監視フォルダ・完了フォルダ、ショートカットとスタートアップの設定を選択します。
 4. 選択内容を確認してインストールします。
@@ -98,7 +98,7 @@ AutoExtracterはMITライセンスです。
 
 ## 不具合等の連絡について
 
-不具合報告や要望は、このリポジトリのIssuesへ投稿してください。
+不具合報告や要望は、[GitHub Issues](https://github.com/Arkw-Kanataaaaaaa/AutoExtracter/issues)へ投稿してください。
 
 不具合を報告する際は、アプリのバージョン、Windowsのバージョン、再現手順、発生日時、該当するログを記載してください。
 ログに含まれる個人情報やフォルダ名は、必要に応じて伏せてください。
