@@ -3,8 +3,6 @@
 </p>
 <h1 align="center">AutoExtracter</h1>
 
-[English](doc/README.en.md)
-
 ## 概要
 
 AutoExtracterは、指定したフォルダを監視し、フォルダ内に配置された圧縮ファイルを自動解凍するWindows用の監視アプリです。
