@@ -114,6 +114,7 @@ internal sealed class SettingsButton : Control, IButtonControl
         SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint |
             ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw |
             ControlStyles.Selectable | ControlStyles.StandardClick, true);
+        Padding = new Padding(12, 0, 12, 0);
         TabStop = true;
         AccessibleRole = AccessibleRole.PushButton;
         GotFocus += (_, _) =>
@@ -186,7 +187,8 @@ internal sealed class SettingsButton : Control, IButtonControl
             e.Graphics.DrawPath(border, path);
         }
 
-        var bounds = new Rectangle(12, 0, Math.Max(1, Width - 24), Height);
+        var bounds = new Rectangle(Padding.Left, Padding.Top,
+            Math.Max(1, Width - Padding.Horizontal), Math.Max(1, Height - Padding.Vertical));
         TextFormatFlags flags = TextFormatFlags.VerticalCenter | TextFormatFlags.NoPrefix | TextFormatFlags.EndEllipsis;
         flags |= TextAlign == ContentAlignment.MiddleLeft ? TextFormatFlags.Left : TextFormatFlags.HorizontalCenter;
         TextRenderer.DrawText(e.Graphics, Text, Font, bounds, Enabled ? ForeColor : Palette.Muted, flags);

@@ -80,6 +80,7 @@ internal sealed class SettingsEditorForm : Form
         close = AddButton(this, MessageId.I352, ClientSize.Width - 59, 5, 46, 40);
         close.Anchor = AnchorStyles.Top | AnchorStyles.Right;
         close.BorderSize = 0;
+        close.Padding = Padding.Empty;
         close.Name = "CancelSettingsButton";
         close.AccessibleName = Messages.Get(MessageId.I371);
         close.Click += (_, _) =>

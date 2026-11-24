@@ -85,6 +85,7 @@ internal sealed class ThemedMessageDialog : Form
 
         var close = AddButton(MessageId.I352, "CloseMessageButton", ClientSize.Width - 52, 5, 42, 38);
         close.BorderSize = 0;
+        close.Padding = Padding.Empty;
         close.Click += (_, _) =>
         {
             DialogResult = confirmation ? DialogResult.No : DialogResult.OK;
